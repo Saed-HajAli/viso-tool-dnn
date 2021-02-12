@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: viso
+Version: 14
+Summary: Useful tools to work with Visualization in python 
+Home-page: UNKNOWN
+Author: Mohammad Saed Haj Ali
+Author-email: ite.s3ed@gmail.com
+License: MIT
+Description: 
+        
+        Useful tools to work with Visualization in Python
+        
+        # Description
+            
+        It consists of one main modules:
+        
+        - `Model`: tools to work with Hists in Python
+        
+        # Installation
+         
+        ## Normal installation
+        
+        ```bash
+        pip install viso
+        ```
+Keywords: hists,viso,vis
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

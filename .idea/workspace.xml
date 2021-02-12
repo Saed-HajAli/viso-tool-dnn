@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecb0d952-09fe-4d96-88ee-10bf91addc53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="3ef9e9e1-2421-44f0-bfa5-889f86a51369" />
+  <component name="ProjectId" id="1XdEuKoRAFpoNLUUDrtPuXdSHZf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="vis" is-module-sdk="true">
+        <envs>
+          <env key="PATH" value="C:\Users\ASUS\Anaconda3;C:\Users\ASUS\Anaconda3\Library\mingw-w64\bin;C:\Users\ASUS\Anaconda3\Library\usr\bin;C:\Users\ASUS\Anaconda3\Library\bin;C:\Users\ASUS\Anaconda3\Scripts;C:\Users\ASUS\Anaconda3\bin;C:\Users\ASUS\Anaconda3\condabin;C:\Users\ASUS\Anaconda3;C:\Users\ASUS\Anaconda3\Library\mingw-w64\bin;C:\Users\ASUS\Anaconda3\Library\usr\bin;C:\Users\ASUS\Anaconda3\Library\bin;C:\Users\ASUS\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\PuTTY;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;.;C:\Program Files\JetBrains\PhpStorm 2019.3.1\bin;.;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;" />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="vis" />
+        <option name="myEnvs">
+          <map>
+            <entry key="PATH" value="C:\Users\ASUS\Anaconda3;C:\Users\ASUS\Anaconda3\Library\mingw-w64\bin;C:\Users\ASUS\Anaconda3\Library\usr\bin;C:\Users\ASUS\Anaconda3\Library\bin;C:\Users\ASUS\Anaconda3\Scripts;C:\Users\ASUS\Anaconda3\bin;C:\Users\ASUS\Anaconda3\condabin;C:\Users\ASUS\Anaconda3;C:\Users\ASUS\Anaconda3\Library\mingw-w64\bin;C:\Users\ASUS\Anaconda3\Library\usr\bin;C:\Users\ASUS\Anaconda3\Library\bin;C:\Users\ASUS\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\PuTTY;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;.;C:\Program Files\JetBrains\PhpStorm 2019.3.1\bin;.;C:\Users\ASUS\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\PycharmProjects\vis\VisPackage\Viso\Model" />
+      <recent name="C:\Users\ASUS\PycharmProjects\vis\Viso\Viso" />
+      <recent name="C:\Users\ASUS\PycharmProjects\vis\Viso\Model" />
+      <recent name="C:\Users\ASUS\PycharmProjects\vis\Interfaces\Web" />
+      <recent name="C:\Users\ASUS\PycharmProjects\vis\Viso" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\PycharmProjects\vis\Viso" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Pure">
+    <configuration name="Pure" type="PythonConfigurationType" factoryName="Python">
+      <module name="vis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ASUS\PycharmProjects\vis\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interfaces/Pure" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interfaces/Pure/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="vis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebApp" type="Python.FlaskServer">
+      <module name="vis" />
+      <option name="target" value="$PROJECT_DIR$/Interfaces/Web/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ASUS\PycharmProjects\vis\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.WebApp" />
+      <item itemvalue="Python.Pure" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecb0d952-09fe-4d96-88ee-10bf91addc53" name="Default Changelist" comment="" />
+      <created>1581367792825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581367792825</updated>
+      <workItem from="1581367795331" duration="196000" />
+      <workItem from="1581368001951" duration="771000" />
+      <workItem from="1581368892023" duration="213000" />
+      <workItem from="1581369150177" duration="295000" />
+      <workItem from="1581369457094" duration="25000" />
+      <workItem from="1581418078044" duration="440000" />
+      <workItem from="1581504500126" duration="18904000" />
+      <workItem from="1581589613447" duration="15302000" />
+      <workItem from="1581624032634" duration="9674000" />
+      <workItem from="1581700554798" duration="2039000" />
+      <workItem from="1581759709323" duration="257000" />
+      <workItem from="1581792099663" duration="2936000" />
+      <workItem from="1581878701299" duration="2103000" />
+      <workItem from="1582111014925" duration="4096000" />
+      <workItem from="1582172873537" duration="2692000" />
+      <workItem from="1582288641396" duration="9515000" />
+      <workItem from="1582317182352" duration="4575000" />
+      <workItem from="1582372962752" duration="12569000" />
+      <workItem from="1582400461254" duration="824000" />
+      <workItem from="1582401372370" duration="127000" />
+      <workItem from="1582401627120" duration="6787000" />
+      <workItem from="1582491626851" duration="283000" />
+      <workItem from="1582563479760" duration="2167000" />
+      <workItem from="1582799019483" duration="18789000" />
+      <workItem from="1582879690983" duration="21666000" />
+      <workItem from="1582928870566" duration="75000" />
+      <workItem from="1582928961330" duration="108000" />
+      <workItem from="1582929202588" duration="3473000" />
+      <workItem from="1582967024159" duration="1750000" />
+      <workItem from="1582990851426" duration="385000" />
+      <workItem from="1583085866549" duration="639000" />
+      <workItem from="1583175402794" duration="1258000" />
+      <workItem from="1583319516500" duration="8700000" />
+      <workItem from="1583333792812" duration="771000" />
+      <workItem from="1583334588829" duration="2206000" />
+      <workItem from="1583405269649" duration="7302000" />
+      <workItem from="1583503512778" duration="11854000" />
+      <workItem from="1583529549774" duration="7335000" />
+      <workItem from="1583576659362" duration="12177000" />
+      <workItem from="1583595739567" duration="387000" />
+      <workItem from="1583611049281" duration="269000" />
+      <workItem from="1583639628486" duration="6565000" />
+      <workItem from="1583690382669" duration="181000" />
+      <workItem from="1584006233622" duration="25558000" />
+      <workItem from="1584197830332" duration="6862000" />
+      <workItem from="1584530914155" duration="1069000" />
+      <workItem from="1584706827098" duration="2739000" />
+      <workItem from="1585281480303" duration="3966000" />
+      <workItem from="1586949747189" duration="2635000" />
+      <workItem from="1587026305479" duration="853000" />
+      <workItem from="1587132345523" duration="1855000" />
+      <workItem from="1587216114757" duration="13783000" />
+      <workItem from="1587722446950" duration="13319000" />
+      <workItem from="1587799714038" duration="11369000" />
+      <workItem from="1587823165366" duration="4678000" />
+      <workItem from="1587933269175" duration="1886000" />
+      <workItem from="1591358405542" duration="145000" />
+      <workItem from="1591361665724" duration="332000" />
+      <workItem from="1591362007352" duration="259000" />
+      <workItem from="1591362295068" duration="151000" />
+      <workItem from="1591362455055" duration="3848000" />
+      <workItem from="1593076379734" duration="872000" />
+      <workItem from="1593196513551" duration="8809000" />
+      <workItem from="1593245079765" duration="5963000" />
+      <workItem from="1593456815450" duration="628000" />
+      <workItem from="1593457782367" duration="1788000" />
+      <workItem from="1593459607525" duration="1795000" />
+      <workItem from="1593461417101" duration="1856000" />
+      <workItem from="1593463340278" duration="797000" />
+      <workItem from="1600752537211" duration="656000" />
+      <workItem from="1600755302637" duration="4000" />
+      <workItem from="1600756943217" duration="51000" />
+      <workItem from="1600757052301" duration="1167000" />
+      <workItem from="1602855069343" duration="42000" />
+      <workItem from="1602855132510" duration="738000" />
+      <workItem from="1602877792159" duration="62000" />
+      <workItem from="1602877925239" duration="51000" />
+      <workItem from="1602878017392" duration="19000" />
+      <workItem from="1602878074964" duration="473000" />
+      <workItem from="1602878586300" duration="6000" />
+      <workItem from="1602878601532" duration="8000" />
+      <workItem from="1602878617908" duration="96000" />
+      <workItem from="1602878722498" duration="31000" />
+      <workItem from="1602878764797" duration="59000" />
+      <workItem from="1602878832963" duration="208000" />
+      <workItem from="1602879049614" duration="47000" />
+      <workItem from="1602879117801" duration="6000" />
+      <workItem from="1602879133592" duration="11000" />
+      <workItem from="1602879153457" duration="107000" />
+      <workItem from="1602879269573" duration="200000" />
+      <workItem from="1602879484651" duration="72000" />
+      <workItem from="1602917325277" duration="24000" />
+      <workItem from="1602920057030" duration="21000" />
+      <workItem from="1602921544642" duration="1212000" />
+      <workItem from="1604743048369" duration="8833000" />
+      <workItem from="1604777245797" duration="4681000" />
+      <workItem from="1606552428085" duration="3315000" />
+      <workItem from="1606562820771" duration="1421000" />
+      <workItem from="1606570991421" duration="49000" />
+      <workItem from="1606580232166" duration="2612000" />
+      <workItem from="1607764287826" duration="2107000" />
+      <workItem from="1609848293000" duration="1988000" />
+      <workItem from="1609853201922" duration="742000" />
+      <workItem from="1610433977081" duration="25472000" />
+      <workItem from="1610476150557" duration="4518000" />
+      <workItem from="1613120344438" duration="617000" />
+      <workItem from="1613146835872" duration="456000" />
+      <workItem from="1613147552254" duration="120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="680" y="343" key="#Notifications" timestamp="1602879076133">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="680" y="343" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1602879076133" />
+    <state x="534" y="160" key="#Plugins" timestamp="1602879066826">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="534" y="160" key="#Plugins/0.0.1920.1050@0.0.1920.1050" timestamp="1602879066826" />
+    <state x="722" y="260" key="FileChooserDialogImpl" timestamp="1602878706512">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="722" y="260" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602878706512" />
+    <state x="443" y="164" key="SettingsEditor" timestamp="1609853174592">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="443" y="164" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1609853174592" />
+    <state x="398" y="243" key="search.everywhere.popup" timestamp="1602923516952">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="398" y="243" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602923516952" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vis$vis.coverage" NAME="WebApp Coverage Results" MODIFIED="1583320276808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
