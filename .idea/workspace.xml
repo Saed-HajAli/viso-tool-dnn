@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ecb0d952-09fe-4d96-88ee-10bf91addc53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisPackage/Viso/Layout/LayoutBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisPackage/Viso/Layout/LayoutBuilder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +261,8 @@
       <workItem from="1610476150557" duration="4518000" />
       <workItem from="1613120344438" duration="617000" />
       <workItem from="1613146835872" duration="456000" />
-      <workItem from="1613147552254" duration="3139000" />
+      <workItem from="1613147552254" duration="5002000" />
+      <workItem from="1613244568431" duration="7012000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1613147772973</created>
@@ -277,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613148236991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update description">
+      <created>1613150753331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613150753331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,18 +297,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="update description" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="93" width="1019" height="863" key="CommitChangelistDialog2" timestamp="1613148235908">
+    <state x="845" y="388" key="#Notifications" timestamp="1613244647031">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="93" width="1019" height="863" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613148235908" />
+    <state x="845" y="388" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1613244647031" />
+    <state x="882" y="317" key="#TODO" timestamp="1613150746004">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="882" y="317" key="#TODO/0.0.1920.1050@0.0.1920.1050" timestamp="1613150746004" />
+    <state x="585" y="93" width="1019" height="863" key="CommitChangelistDialog2" timestamp="1613150752297">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="585" y="93" width="1019" height="863" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613150752297" />
     <state x="443" y="164" key="SettingsEditor" timestamp="1609853174592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="443" y="164" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1609853174592" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1613148240039">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1613150758968">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613148240039" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613150758968" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/vis$vis.coverage" NAME="WebApp Coverage Results" MODIFIED="1583320276808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

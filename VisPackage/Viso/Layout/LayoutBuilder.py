@@ -227,13 +227,13 @@ class LayoutBuilder:
             color="dark",
             dark=True
         )
-        content = html.Div(id="page-content", children=[self.initVisForModels([self.models[0]])], style=CONTENT_STYLE)
+        content = html.Div(id="page-content", children=[self.initVisForModels(self.models)], style=CONTENT_STYLE)
         return html.Div([dcc.Location(id="url"),navbar,content])
 
     def initVisForModels(self, models):
-        return html.Div(dbc.Row([self.initVis(x) for x in models]))
+        return html.Div(dbc.Row([self.initVis(models[i], i) for i in range(len(models))]))
 
-    def initVis(self, model):
+    def initVis(self, model, modelIndex):
         w = 6
 
         return dbc.Col(
@@ -255,7 +255,7 @@ class LayoutBuilder:
                                 #          }
                                 #          ),width={'size':8}),
                                 dbc.Col(html.H2("Scale: "), width={'size': 2}, style={'textAlign': 'center'}),
-                                dbc.Col(dcc.Dropdown(id='range',
+                                dbc.Col(dcc.Dropdown(id='range-'+str(modelIndex),
                                                      options=[
                                                          {'label': '0.2X', 'value': '0.2'},
                                                          {'label': '0.25X', 'value': '0.25'},
@@ -276,7 +276,7 @@ class LayoutBuilder:
                             ], justify="center"),
                             dbc.Row([
                                 dbc.Col(html.Div([html.Br(), dcc.Slider(
-                                    id='epoch-slider',
+                                    id='epoch-slider-'+str(modelIndex),
                                     min=0,
                                     max=model.epochCount() - 1,
                                     value=model.epochCount() - 1,
@@ -288,11 +288,11 @@ class LayoutBuilder:
                                 'textAlign': 'center'
                             }))), align="center"),
                             dbc.Row([
-                                dbc.Col(html.Div(dcc.Graph(id='summaryHist',
+                                dbc.Col(html.Div(dcc.Graph(id='summaryHist' + '-' + str(modelIndex),
                                                            figure=self.getSummaryFigure(
                                                                model))),
                                         width={'size': 4, 'offset': 1}),
-                                dbc.Col(html.Div(dcc.Graph(id='summaryHistPerScore',
+                                dbc.Col(html.Div(dcc.Graph(id='summaryHistPerScore' + '-' + str(modelIndex),
                                                            figure=self.getSummaryFigurePerScore(
                                                                model))),
                                         width={'size': 4, 'offset': 2})
@@ -301,36 +301,36 @@ class LayoutBuilder:
                                 'textAlign': 'center'
                             }))), align="center"),
                             dbc.Row([
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[0],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[0] + '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 0))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[1],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[1]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 1))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[2],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[2]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 2))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[3],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[3]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 3))),
                                         width=w),
 
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[4],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[4]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 4))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[5],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[5]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 5))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[6],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[6]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 6))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[7],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[7]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 7))),
                                         width=w),
 
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[8],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[8]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 8))),
                                         width=w),
-                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[9],
+                                dbc.Col(html.Div(dcc.Graph(id=model.lastEpoch().classNames[9]+ '-' + str(modelIndex),
                                                            figure=self.getFigure(model, 9))),
                                         width=w)
 
@@ -340,34 +340,32 @@ class LayoutBuilder:
                 ),
 
             ]
-            , width={'size': 6})
-
-
-
-
-
-            # @self.app.callback(Output('header', 'children'), [Input('epoch-slider', 'value')])
-            # def update_output_div(value):
-            #     return 'Cifar Model, Epochs Count : ' + str(self.models[0].epochCount()) + ', Selected Epoch: ' + str(value + 1)
+            , width={'size': 12/len(self.models)})
 
     def loadCallbacks(self):
-        @self.app.callback([Output(x, 'figure') for x in self.models[0].lastEpoch().classNames],[Input('range', 'value'), Input('epoch-slider', 'value')])
-        def update_output_div(dvalue, svalue):
-            return [self.getFigure(self.models[0], i, svalue, float(dvalue)) for i in range(len(self.models[0].lastEpoch().classNames))]
 
-        # @self.app.callback(Output('tabs-example', 'value'),[Input(self.model.lastEpoch().classNames[0], 'clickData')])
-        # def onclick_bar(clickData):
-        #     print("Data: " + str(json.dumps(clickData)))
-        #     return "classHists"
-        # @self.app.callback(
-        #     [Output(f"page-{i}-link", "active") for i in range(1, 4)],
-        #     [Input("url", "pathname")],
-        # )
-        # def toggle_active_links(pathname):
-        #     if pathname == "/":
-        #         # Treat page 1 as the homepage / index
-        #         return True, False, False
-        #     return [pathname == f"/page-{i}" for i in range(1, 4)]
+        for j in range(len(self.models)):
+            @self.app.callback([Output(x + '-' + str(j), 'figure') for x in self.models[j].lastEpoch().classNames],
+                               [Input('range-'+str(j), 'value'), Input('epoch-slider-'+str(j), 'value'), Input('epoch-slider-'+str(j), 'id')])
+            def update_histograms_figure(scaleValue, epochIndex, id):
+                modelIndex = int(id.split('-')[len(id.split('-')) - 1])
+                return [self.getFigure(self.models[modelIndex], i, epochIndex, float(scaleValue)) for i in range(len(self.models[modelIndex].lastEpoch().classNames))]
+
+
+        for j in range(len(self.models)):
+            @self.app.callback(Output('summaryHistPerScore-' + str(j), 'figure'),
+                               [Input('range-'+str(j), 'value'), Input('epoch-slider-'+str(j), 'value'), Input('epoch-slider-'+str(j), 'id')])
+            def update_summaryHistPerScore_figure(scaleValue, epochIndex, id):
+                modelIndex = int(id.split('-')[len(id.split('-')) - 1])
+                return self.getSummaryFigurePerScore(self.models[modelIndex],epochIndex,float(scaleValue))
+
+
+        for j in range(len(self.models)):
+            @self.app.callback(Output('summaryHist-' + str(j), 'figure'),
+                               [Input('range-'+str(j), 'value'), Input('epoch-slider-'+str(j), 'value'), Input('epoch-slider-'+str(j), 'id')])
+            def update_summaryHist_figure(scaleValue, epochIndex, id):
+                modelIndex = int(id.split('-')[len(id.split('-')) - 1])
+                return self.getSummaryFigure(self.models[modelIndex],epochIndex,float(scaleValue))
 
         @self.app.callback(Output("page-content", "children"), [Input("url", "pathname")])
         def render_page_content(pathname):
